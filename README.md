@@ -1,16 +1,16 @@
 # Predicting Apple Inc. Stock Prices Using LSTM Model
 Objective: Forecast Apple Inc.'s stock prices for 2021 using an LSTM model trained on data from 1980 to 2021.
 
-### Data Preparation:
+#### Data Preparation:
 Load and preprocess data, scale 'Close' prices with MinMaxScaler, and split into training (80%) and testing sets.
-## Model Building:
+#### Model Building:
 Construct an LSTM model with two LSTM layers and dropout for regularization.
-## Training:
+#### Training:
 Train the model for 75 epochs on the prepared data.
-## Prediction:
+#### Prediction:
 Forecast stock prices for 2021 and compare with actual values.
-## Evaluation: 
+#### Evaluation: 
 Calculate RMSE to assess model accuracy.
-## Visualization:
+#### Visualization:
 Plot actual vs. predicted prices.
-## Dataset: Historical stock prices from 1980 to 2021(https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021)
+### Dataset: Historical stock prices from 1980 to 2021(https://www.kaggle.com/datasets/meetnagadia/apple-stock-price-from-19802021)
